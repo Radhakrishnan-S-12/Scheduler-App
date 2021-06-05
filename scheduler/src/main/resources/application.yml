@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      port: 27017
+      host: localhost
+      database: scheduler_db
+  application:
+    name: Scheduler-App
+server:
+  servlet:
+    context-path: /scheduler
+  port: 8080
+  
